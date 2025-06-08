@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Maui this is for u</title>
+
+  <!-- Google Fonts: Edu NSW ACT Cursive & Ubuntu -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Cursive:wght@400..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet" />
+
+  <style>
+    /* Universal box-sizing */
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background: url('bg.png') no-repeat center center fixed;
+      background-size: cover;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      height: 100vh;
+      color: white;
+      text-shadow: 1px 1px 4px black;
+    }
+
+    header {
+      font-size: 2.5rem;
+      font-weight: bold;
+      margin-top: 40px;
+      text-align: center;
+      font-family: 'Edu NSW ACT Cursive', cursive;
+    }
+
+    h1 {
+      font-size: 1.2rem;
+      font-weight: bold;
+      margin-top: 10px;
+      text-align: center;
+      font-family: 'Edu NSW ACT Cursive', cursive;
+    }
+
+    main {
+      flex-grow: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+    }
+
+    video {
+      max-width: 90%;
+      max-height: 60vh;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+    }
+
+    .p1 {
+      font-size: 1rem;
+      padding: 20px 80px;
+      text-align: center;
+      font-family: 'Ubuntu', sans-serif;
+      font-style: italic;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    @media (max-width: 600px) {
+      header {
+        font-size: 2rem;
+      }
+
+      h1 {
+        font-size: 1rem;
+      }
+
+      .p1 {
+        padding: 15px 20px;
+        font-size: 0.9rem;
+      }
+
+      video {
+        max-height: 40vh;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>Hi Maui, I miss you</header>
+  <h1>ps. ang qt natin sa photobooth hehe</h1>
+
+  <main>
+    <video autoplay loop muted>
+      <source src="video.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+  </main>
+
+  <p class="p1">
+    Gusto ko lang sabihin sayo na miss na kita. Sorry dahil habang ka call kita kagabi ay ginagawa ko to, sana natuwa ka sa pakulo ko na to hehe. Sana maging productive ka sa week na to. Kung ano man ang pagsubok na dadaan this week eh sana kayanin mo, andito lang ako palagi ha? Maging productive ka sa school or sa bahay, sana maging pampagana mo tong ginawa ko sayo hehe. Huwag mo papabayaan sarili mo ah? Miss na kita, see you soon!
+  </p>
+</body>
+</html>
